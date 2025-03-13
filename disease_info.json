@@ -1,0 +1,82 @@
+{
+    "Tomato - Healthy": {
+        "symptoms": "No visible symptoms.",
+        "treatment": "Maintain proper watering and fertilization.",
+        "fun_fact": "Tomatoes are technically a fruit, not a vegetable!"
+    },
+    "Tomato - Leaf Mold": {
+        "symptoms": "Yellow spots on leaves, leading to defoliation.",
+        "treatment": "Apply fungicides and improve air circulation.",
+        "fun_fact": "Leaf mold thrives in humid conditions."
+    },
+    "Tomato - Yellow Leaf Curl Virus": {
+        "symptoms": "Yellowing and curling of leaves, stunted growth.",
+        "treatment": "Control whiteflies and remove infected plants.",
+        "fun_fact": "This virus is spread by whiteflies."
+    },
+    "Tomato - Septoria Leaf Spot": {
+        "symptoms": "Small, circular spots with gray centers on leaves.",
+        "treatment": "Remove infected leaves and apply fungicides.",
+        "fun_fact": "Septoria Leaf Spot can reduce tomato yields by up to 50%."
+    },
+    "Potato - Healthy": {
+        "symptoms": "No visible symptoms.",
+        "treatment": "Maintain proper soil moisture and fertilization.",
+        "fun_fact": "Potatoes are the world’s fourth-largest food crop."
+    },
+    "Potato - Late Blight": {
+        "symptoms": "Dark lesions on leaves and stems, rapid plant death.",
+        "treatment": "Apply fungicides and remove infected plants.",
+        "fun_fact": "Late blight caused the Irish Potato Famine in the 1840s."
+    },
+    "Potato - Early Blight": {
+        "symptoms": "Concentric rings on leaves, reduced yield.",
+        "treatment": "Apply fungicides and rotate crops.",
+        "fun_fact": "Early blight is more common in warm, wet climates."
+    },
+    "Potato - Scab": {
+        "symptoms": "Rough, scabby lesions on tubers.",
+        "treatment": "Maintain soil pH and rotate crops.",
+        "fun_fact": "Potato scab makes tubers unmarketable but doesn’t affect taste."
+    },
+    "Corn - Healthy": {
+        "symptoms": "No visible symptoms.",
+        "treatment": "Maintain proper watering and fertilization.",
+        "fun_fact": "Corn is used in over 4,000 products, from food to fuel."
+    },
+    "Corn - Northern Leaf Blight": {
+        "symptoms": "Long, grayish lesions on leaves, reduced photosynthesis.",
+        "treatment": "Apply fungicides and rotate crops.",
+        "fun_fact": "Northern Leaf Blight can reduce corn yields by up to 30%."
+    },
+    "Corn - Common Rust": {
+        "symptoms": "Reddish-brown pustules on leaves.",
+        "treatment": "Apply fungicides and plant resistant varieties.",
+        "fun_fact": "Common rust appears as reddish-brown pustules on leaves."
+    },
+    "Corn - Gray Leaf Spot": {
+        "symptoms": "Rectangular lesions on leaves, reduced yield.",
+        "treatment": "Apply fungicides and rotate crops.",
+        "fun_fact": "Gray Leaf Spot is more severe in conservation tillage systems."
+    },
+    "Rice - Healthy": {
+        "symptoms": "No visible symptoms.",
+        "treatment": "Maintain proper water levels and fertilization.",
+        "fun_fact": "Rice feeds over half of the world’s population."
+    },
+    "Rice - Blast": {
+        "symptoms": "Diamond-shaped lesions on leaves.",
+        "treatment": "Apply fungicides and plant resistant varieties.",
+        "fun_fact": "Rice blast can cause yield losses of up to 100%."
+    },
+    "Rice - Bacterial Leaf Blight": {
+        "symptoms": "Yellow streaks on leaves, reduced photosynthesis.",
+        "treatment": "Apply bactericides and remove infected plants.",
+        "fun_fact": "Bacterial Leaf Blight spreads through water and wind."
+    },
+    "Rice - Brown Spot": {
+        "symptoms": "Small, brown spots on leaves, reduced yield.",
+        "treatment": "Apply fungicides and improve soil conditions.",
+        "fun_fact": "Brown Spot is often associated with poor soil conditions."
+    }
+}

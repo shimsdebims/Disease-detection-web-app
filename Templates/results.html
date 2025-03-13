@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <img src="{{ url_for('static', filename=image_url) }}" alt="Uploaded Image" width="300">
+        <h2>{{ prediction }}</h2>
+        <p><strong>Symptoms:</strong> {{ disease_info.symptoms }}</p>
+        <p><strong>Treatment:</strong> {{ disease_info.treatment }}</p>
+        <p><strong>Fun Fact:</strong> {{ disease_info.fun_fact }}</p>
+        <a href="/">Upload Another Image</a>
+    </div>
+</body>
+</html>
