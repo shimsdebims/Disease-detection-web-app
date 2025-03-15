@@ -15,7 +15,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 MODEL_PATH = 'Model/crop_disease_model.pth'
 
 # Define the model architecture
-model = models.resnet18(pretrained=False)  # Use pretrained=False since we're loading custom weights
+model = models.resnet50(pretrained=False)  # Use pretrained=False since we're loading custom weights
 num_classes = 15  # Adjust based on your dataset
 model.fc = torch.nn.Linear(model.fc.in_features, num_classes)  # Adjust the final layer
 
