@@ -16,7 +16,8 @@ train_transform = transforms.Compose([
     transforms.RandomRotation(30),  # Data augmentation
     transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),  # Adjust brightness, contrast, and saturation
     transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),  # Randomly crop and resize
-  
+    transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),  # Random translation
+    transforms.RandomPerspective(distortion_scale=0.2, p=0.5),  # Random perspective
     ###add pixelation/saturation stuff
     transforms.ToTensor(),  # Convert images to PyTorch tensors
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # Normalize
@@ -38,7 +39,7 @@ train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 valid_loader = DataLoader(valid_dataset, batch_size=32, shuffle=False)
 
 # Define your model
-model = models.resnet50(pretrained=False)
+model = models.resnet50(pretrained=True)
 num_classes = len(train_dataset.classes)  # Automatically determine the number of classes
 model.fc = nn.Linear(model.fc.in_features, num_classes)  # Adjust the final layer
 
@@ -50,7 +51,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-for epoch in range(20):  # Adjust the number of epochs
+for epoch in range(30):  # Adjust the number of epochs
     model.train()
     running_loss = 0.0
     for inputs, labels in train_loader:
