@@ -1,0 +1,64 @@
+/* Main container */
+.stApp {
+    background-color: #f5f5f5;
+}
+
+/* File uploader */
+.stFileUploader {
+    border: 2px dashed #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.stFileUploader:hover {
+    background-color: rgba(76, 175, 80, 0.1);
+    border-color: #3e8e41;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #3e8e41;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Expanders */
+.stExpander {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.stExpander:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Info boxes */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* Prediction result */
+.prediction-result {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(76, 175, 80, 0.1);
+    border-radius: 8px;
+    border-left: 5px solid #4CAF50;
+}
